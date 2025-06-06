@@ -1,0 +1,19 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Remove next comment to add root colors */
+/* :root {
+    --primary-color: #FFFFFF;
+} */
