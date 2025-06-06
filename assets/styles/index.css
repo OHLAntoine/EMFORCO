@@ -10,10 +10,38 @@ button {
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, serif;
 }
 
-/* Remove next comment to add root colors */
-/* :root {
-    --primary-color: #FFFFFF;
-} */
+:root {
+    --white-: #FFFFFF;
+    --blue-: #0000FF;
+    --red-: #FF0000;
+}
+
+/* Header */
+
+.logo {
+    color: var(--red-);
+}
+
+/* Title Heroe */
+
+.title_img {
+    height: 100%;
+}
+
+/* Carousel */
+
+.carousel_img {
+    object-fit: cover;
+}
+
+/* Footer */
+
+.mail_link {
+    color: var(--blue-);
+}
+.mail_link:hover {
+    color: var(--red-);
+}
