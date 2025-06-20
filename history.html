@@ -18,29 +18,38 @@
     <meta name="keywords" content="EMFORCO, forced conscription, war crime, crime against humanity, history, experts, citizens, recognition, advocacy">
 </head>
 <body>
-    <header>
-        <div class="container"> 
-            <nav class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom border-danger"> 
-                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> 
-                    <span class="fs-2 logo">EMFORCO</span> 
-                </a> 
-                <ul class="nav nav-pills"> 
-                    <li class="nav-item">
-                        <a href="/" class="nav-link">Home</a>
-                    </li> 
-                    <li class="nav-item">
-                        <a href="./history.html" class="nav-link link-secondary">Our History</a>
-                    </li> 
-                    <li class="nav-item">
-                        <a href="./Partners-Events.html" class="nav-link">Partners & Events</a>
-                    </li>
-                </ul> 
-            </nav> 
-        </div>
+    <header class="container sticky-top navbar_header bg-white">
+        <nav class="navbar navbar-expand-lg border-bottom border-danger" aria-label="Offcanvas navbar large">
+            <div class="container-fluid">
+                <a class="navbar-brand navbar_text fs-2 logo" href="/">EMFORCO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                    <i class="bi bi-list menu_toggle text_white"></i>
+                </button>
+                <div class="offcanvas offcanvas-end offcanvas_menu" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+                    <h5 class="offcanvas-title navbar_text fs-2 logo border-bottom border-danger" id="offcanvasNavbar2Label">EMFORCO</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link navbar_text nav_link" aria-current="page" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar_text nav_link active" href="./history.html">Our History</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar_text nav_link" href="./Partners-Events.html">Partners & Events</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </nav>
     </header>
     <main>
         <section class="container">
-            <div class="my-5 py-4">
+            <div class="py-4 mt-4">
                 <h2 class="fs-3 fw-bold lh-base mb-3">Our history</h2>
                 <p class="fs-5 lh-lg">
                     EMFORCO was born in 2025 from the will of historians and citizens to put the emphasis on forced conscription, 
@@ -52,14 +61,35 @@
                     people’s sovereignty and their right to decide their own fate by explaining, educating and advocating against 
                     forced conscription in Europe.
                 </p>
-                <lu>
-                    <li class="fs-5 lh-base mb-3">
-                        Founding Members
+            </div>
+        </section>
+        <section class="container">
+            <div class="py-4">
+                <h2 class="fs-3 fw-bold lh-base mb-3">Founding Members</h2>
+                <ul class="d-flex flex-column gap-4">
+                    <li class="fs-5 lh-lg">
+                        <a href="https://cercle-k2.fr/users/single/952/Fran%C3%A7ois-Hoehlinger" target="_blank">François Hoehlinger</a> is a French entrepreneur, writer and politician. 
+                        He graduated from Ecole Nationale d’Administration and wrote several reports and 
+                        books about diversity in transportation, his foremost domain of expertise. 
+                        He took over the creation of the EMFORCO collective to tell stories of European forced conscription, 
+                        including his grandfather Louis.
                     </li>
-                    <li class="fs-5 lh-base mb-3">
-                        Mission Letter (enclosed)
+                    <li class="fs-5 lh-lg">
+                        Catherine Hoehlinger is a french specialist of social questions, working for social 
+                        associations in Brittany. She is supporting the EMFORCO collective to tell stories of European 
+                        forced conscription, including his grandfather Louis.
                     </li>
-                </lu>
+                    <li class="fs-5 lh-lg">
+                        <a href="http://www.academie-alsace.fr/membres/section-culture/nicolas-mengus/" target="_blank">Nicolas Mengus</a> is a french historian specialized about middle-age and WWII history. 
+                        He is managing a french newspaper “L’ami Hebdo” and a blog about “Malgrés-Nous”, the 
+                        history of alsatian and mosellan french forced conscripted soldiers and civilians.
+                    </li>
+                    <li class="fs-5 lh-lg">
+                        <a href="https://igorfutterer.info/" target="_blank">Igor Futterer</a> is a french theater regisseur that created WWII focused play “La Cigogne n’a qu’une tête” 
+                        that has been played for the last 25 years. With Nicolas Mengus, he expanded this project towards a story 
+                        called Story Roll'Up, an interactive journey with drawings and pictures aiming to explain this story to students.
+                    </li>
+                </ul>
             </div>
         </section>
     </main>

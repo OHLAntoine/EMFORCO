@@ -25,6 +25,10 @@ body {
     color: var(--red-);
 }
 
+.nav_link {
+    color: var(--red-);
+}
+
 /* Title Heroe */
 
 .title_img {
